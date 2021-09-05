@@ -25,7 +25,10 @@ public class Library {
         System.out.println(book1.isbn);
          */
 
+        var zemsta = new Book("Zemsta", "Aleksander Fredra", 1933, 188, "QQE");
+
         cherub.printInfo();
+        zemsta.printInfo();
 
 
     }
