@@ -20,7 +20,7 @@ public class Book {
         this.releaseDate = releaseDate;
         this.pages = pages;
         this.publisher = publisher;
-}
+    }
     public void printInfo() {
         String info = title + " " + author + " " + releaseDate + " " + pages + " " + publisher + " ";
         if(isbn != null) {

@@ -2,12 +2,12 @@ package model;
 
 public class Library {
 
-    private final int maxBooks = 1000;
-    private Book[] books = new Book[maxBooks];
+    private static final int MAX_BOOKS = 1000;
+    private Book[] books = new Book[MAX_BOOKS];
     private int booksNumber = 0;
 
     public void addBook(Book book) {
-        if (booksNumber < maxBooks) {
+        if (booksNumber < MAX_BOOKS) {
             books[booksNumber] = book;
             booksNumber++;
         } else {
