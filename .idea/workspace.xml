@@ -12,11 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5b9c5728-a0e1-42a1-abb7-fb75e2b205e1" name="Default Changelist" comment="WIP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/LibraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/LibraryApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/LibraryControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/DataReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Magazine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Publication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632354867577</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="WIP">
+      <created>1632433069975</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1632433069975</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,14 +195,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="845" y="383" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1630684603064" />
-    <state x="1290" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1632431928404">
+    <state x="1290" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1632439321927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1290" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1632431928404" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1631799726801">
+    <state x="1290" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1632439321927" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1632436330382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1631799726801" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1632436330382" />
     <state x="838" y="418" key="Github.ShareDialog" timestamp="1630684829942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -227,14 +231,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1632354932628" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1632354882600">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1632433078157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1632354882600" />
-    <state x="675" y="224" key="new project wizard" timestamp="1631799727840">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1632433078157" />
+    <state x="675" y="224" key="new project wizard" timestamp="1632436331660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="675" y="224" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1631799727840" />
+    <state x="675" y="224" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1632436331660" />
     <state x="1200" y="267" key="refactoring.ChangeSignatureDialog" timestamp="1632354125170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -16,6 +16,11 @@ class Publication {
         this.year = year;
     }
 
+    // Methods
+
+    public void printInfo() {
+    }
+
     // Getters and Setters
 
     public int getYear() {
