@@ -1,21 +1,24 @@
 package model;
 
 public class Book extends Publication{
+
+    // Variables
+
     private String author;
     private int pages;
     private String isbn;
 
-    //Build constructor
+    // Constructor
 
-    public Book(String title, String author, int year, int pages, String publisher, String Isbn) {
-        this.setTitle(title);
-        this.setYear(year);
-        this.setPublisher(publisher);
-        this.author =  author;
+    public Book(String title, String publisher, int year, String author, int pages, String isbn) {
+        super(title, publisher, year);
+        this.author = author;
         this.pages = pages;
-        this.isbn = Isbn;
-
+        this.isbn = isbn;
     }
+
+    // Methods
+
     public void printInfo() {
         String info = getTitle() + " " + author + " " + getYear() + " " + pages + " " + getPublisher() + " ";
         if(isbn != null) {
@@ -23,6 +26,8 @@ public class Book extends Publication{
         }
         System.out.println(info);
     }
+
+    // Getters and Setters
 
     public String getAuthor() {
         return author;

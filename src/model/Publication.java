@@ -1,9 +1,22 @@
 package model;
 
 class Publication {
+
+    // Variables
+
     private int year;
     private String title;
     private  String publisher;
+
+    // Constructor
+
+    public Publication(String title, String publisher, int year) {
+        this.title = title;
+        this.publisher = publisher;
+        this.year = year;
+    }
+
+    // Getters and Setters
 
     public int getYear() {
         return year;

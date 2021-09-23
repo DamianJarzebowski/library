@@ -1,23 +1,30 @@
 package model;
 
 public class Magazine extends Publication {
+
+    // Variables
+
     private int month;
     private  int day;
     private String language;
 
+    //  Constructor
 
-    // Build Constructor
-
-    public Magazine(String title, String publisher, String language, int year, int month, int day) {
-        this.setTitle(title);
-        this.setPublisher(publisher);
-        this.setYear(year);
+    public Magazine(String title, String publisher, int year, int month, int day, String language) {
+        super(title, publisher, year);
         this.month = month;
         this.day = day;
         this.language = language;
     }
 
-    // Geters and setters
+    // Methods
+
+    public void printInfo() {
+        String info = getTitle() + "; " + getPublisher() + ": " + getYear() + "-" + month + "-" + day + "; " + language;
+        System.out.println(info);
+    }
+
+    // Getters and Setters
 
     public int getMonth() {
         return month;
@@ -41,12 +48,5 @@ public class Magazine extends Publication {
 
     public void setLanguage(String language) {
         this.language = language;
-    }
-
-    // Methods
-
-    public void printInfo() {
-        String info = getTitle() + "; " + getPublisher() + ": " + getYear() + "-" + month + "-" + day + "; " + language;
-        System.out.println(info);
     }
 }

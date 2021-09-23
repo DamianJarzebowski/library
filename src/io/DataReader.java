@@ -22,7 +22,7 @@ public class DataReader {
         int year = getInt();
         System.out.println("Ilość stron: ");
         int pages = getInt();
-        return new Book(title, publisher, year, pages, publisher, isbn);
+        return new Book(title, publisher, year, author, pages, isbn);
     }
 
     public Magazine readAndCreateMagazine() {
@@ -40,7 +40,7 @@ public class DataReader {
         int month = getInt();
         System.out.println("Dzień");
         int day = getInt();
-        return new Magazine(title, publisher, language, year, month, day);
+        return new Magazine(title, publisher, year, month, day, language);
     }
 
     public int getInt() {
