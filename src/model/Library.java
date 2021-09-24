@@ -2,7 +2,12 @@ package model;
 
 public class Library {
 
+    // Static variables
+
     private static final int MAX_PUBLICATIONS = 2000;
+
+    // Variables
+
     private int publicationsNumber = 0;
     private Publication[] publications = new Publication[MAX_PUBLICATIONS];
 
@@ -21,7 +26,7 @@ public class Library {
         int countBooks = 0;
         for (int i = 0; i < publicationsNumber; i++) {
             if (publications[i] instanceof Book) {
-                publications[i].printInfo();
+                System.out.println(publications[i]);
                 countBooks++;
             }
         }
@@ -45,7 +50,7 @@ public class Library {
         int countMagazines = 0;
         for (int i = 0; i < publicationsNumber; i++) {
             if (publications[i] instanceof Magazine) {
-                publications[i].printInfo();
+                System.out.println(publications[i]);
                 countMagazines++;
             }
         }
