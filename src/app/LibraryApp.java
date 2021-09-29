@@ -4,7 +4,7 @@ class LibraryApp {
 
     // App Name
 
-    private static final String APP_NAME = "Biblioteka v1.3";
+    private static final String APP_NAME = "Biblioteka v1.5";
 
     public static void main(String[] args) {
 

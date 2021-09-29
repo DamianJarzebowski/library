@@ -11,52 +11,36 @@ public class Library {
     private int publicationsNumber = 0;
     private Publication[] publications = new Publication[MAX_PUBLICATIONS];
 
+    // Method for publications (magazines and books)
+
+    private void addPublication(Publication publication) {
+        if (publicationsNumber >= MAX_PUBLICATIONS) {
+            throw new ArrayIndexOutOfBoundsException("Max publications exceeded " + MAX_PUBLICATIONS);
+        }
+        publications[publicationsNumber] = publication;
+        publicationsNumber++;
+    }
+
     // Methods for books
 
     public void addBook(Book book) {
-        if (publicationsNumber < MAX_PUBLICATIONS) {
-            publications[publicationsNumber] = book;
-            publicationsNumber++;
-        } else {
-            System.out.println("Maksymalna liczba książek została osiągnięta");
-        }
-    }
-
-    public void printBooks() {
-        int countBooks = 0;
-        for (int i = 0; i < publicationsNumber; i++) {
-            if (publications[i] instanceof Book) {
-                System.out.println(publications[i]);
-                countBooks++;
-            }
-        }
-        if (countBooks == 0) {
-            System.out.println("Brak książek w bibliotece");
-        }
+        addPublication(book);
     }
 
     // Methods for magazines
 
     public void addMagazines(Magazine magazine) {
-        if (publicationsNumber < MAX_PUBLICATIONS) {
-            publications[publicationsNumber] = magazine;
-            publicationsNumber++;
-        } else {
-            System.out.println("Maksymalna liczba magazynów została osiągnięta");
-        }
+        addPublication(magazine);
     }
 
-    public void printMagazines() {
-        int countMagazines = 0;
-        for (int i = 0; i < publicationsNumber; i++) {
-            if (publications[i] instanceof Magazine) {
-                System.out.println(publications[i]);
-                countMagazines++;
-            }
+    // Getter do zwracania tablicy publikacji bez wartości null
+
+    public Publication[] getPublications() {
+        Publication[] result = new Publication[publicationsNumber];
+        for (int i = 0; i < result.length; i++) {
+            result[i] = publications[i];
         }
-        if (countMagazines == 0) {
-            System.out.println("Brak magazynów w bibliotece");
-        }
+        return result;
     }
 
 }
