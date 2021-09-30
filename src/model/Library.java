@@ -1,6 +1,8 @@
 package model;
 
-public class Library {
+import java.io.Serializable;
+
+public class Library implements Serializable {
 
     // Static variables
 

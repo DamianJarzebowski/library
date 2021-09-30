@@ -1,8 +1,9 @@
 package model;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Publication {
+public abstract class Publication implements Serializable {
 
     // Variables
 

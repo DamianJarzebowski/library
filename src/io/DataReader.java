@@ -60,4 +60,11 @@ public class DataReader {
     public void close() {
         scan.close();
     }
+
+    // Method for load String
+
+    public String getString() {
+        return scan.nextLine();
+    }
+
 }
