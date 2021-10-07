@@ -6,6 +6,7 @@ public class Book extends Publication{
 
     // Variables
 
+    public static final String TYPE = "Ksiązka";
     private String author;
     private int pages;
     private String isbn;
@@ -68,5 +69,11 @@ public class Book extends Publication{
 
     public void setIsbn(String isbn) {
         this.isbn = isbn;
+    }
+
+
+
+    public String toCsv() {
+        return TYPE + ";" + getTitle() + ";" + getPublisher() + ";" + getYear() + ";" + author + ";" + pages + ";" + isbn;
     }
 }

@@ -1,7 +1,7 @@
 package exception;
 
 public class NoSuchFileTypeException extends RuntimeException{
-    public NoSuchFileTypeException(String message) {
-        super(message);
+    public NoSuchFileTypeException(String msg) {
+        super(msg);
     }
 }

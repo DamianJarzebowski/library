@@ -43,6 +43,8 @@ public abstract class Publication implements Serializable {
         return Objects.hash(year, title, publisher);
     }
 
+    public abstract String toCsv();
+
     // Getters and Setters
 
     public int getYear() {

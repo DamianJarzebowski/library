@@ -6,6 +6,8 @@ public class Magazine extends Publication {
 
     // Variables
 
+    public static final String TYPE = "Magazyn";
+
     private int month;
     private  int day;
     private String language;
@@ -42,6 +44,17 @@ public class Magazine extends Publication {
     @Override
     public int hashCode() {
         return Objects.hash(super.hashCode(), month, day, language);
+    }
+
+    @Override
+    public String toCsv() {
+        return (TYPE + ";") +
+                getTitle() + ";" +
+                getPublisher() + ";" +
+                getYear() + ";" +
+                month + ";" +
+                day + ";" +
+                language + "";
     }
 
     // Getters and Setters
