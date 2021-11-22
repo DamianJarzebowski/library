@@ -3,7 +3,7 @@ package model;
 import java.io.Serializable;
 import java.util.Objects;
 
-public abstract class Publication implements Serializable {
+public abstract class Publication implements Serializable, Comparable<Publication> {
 
     // Variables
 
@@ -18,6 +18,8 @@ public abstract class Publication implements Serializable {
         this.publisher = publisher;
         this.year = year;
     }
+
+    public abstract String toCsv();
 
     // Methods
 
@@ -43,7 +45,11 @@ public abstract class Publication implements Serializable {
         return Objects.hash(year, title, publisher);
     }
 
-    public abstract String toCsv();
+    @Override
+    public int compareTo(Publication p) {
+        return title.compareToIgnoreCase(p.title);
+    }
+
 
     // Getters and Setters
 

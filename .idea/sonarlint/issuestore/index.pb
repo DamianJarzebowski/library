@@ -9,7 +9,5 @@ V
 &src/exception/DataExportException.java,4\4\4470868063e4a751fa00c4d457d6ef18fc840055
 I
 src/io/file/FileType.java,d\7\d7c8b29b19748303b98830ae4e8435b3e74295b0
-J
-src/model/Publication.java,6\0\60fee77a7f8f604e879938228b5f7ab5d1aebbd7
 X
 (src/io/file/SerializableFileManager.java,1\b\1b0eeb2cb3a9af3203a7670128e70a086af25b21
