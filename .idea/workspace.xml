@@ -11,9 +11,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b9c5728-a0e1-42a1-abb7-fb75e2b205e1" name="Default Changelist" comment="WIP">
+      <change afterPath="$PROJECT_DIR$/.idea/library.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b0eeb2cb3a9af3203a7670128e70a086af25b21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/277836cf5f8e3594adb80a19dd895735c74690eb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/3821cd540ae6c17ff9745fd85759810c610e9dfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/4470868063e4a751fa00c4d457d6ef18fc840055" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60fee77a7f8f604e879938228b5f7ab5d1aebbd7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8cd949af585b550b13746e6eefd743ad3cc1162" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d7c8b29b19748303b98830ae4e8435b3e74295b0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library_users.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/PublicationAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/UserAlreadyExistsEception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/LibraryUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/LibraryControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/ConsolePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/file/CsvFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/file/CsvFileManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +62,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../operacje na tablicach" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -95,6 +112,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -204,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633650717989</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="WIP">
+      <created>1637615296158</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1637615296158</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,76 +248,6 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="WIP" />
     <option name="LAST_COMMIT_MESSAGE" value="WIP" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="845" y="383" key="#Notifications" timestamp="1630684603064">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="845" y="383" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1630684603064" />
-    <state x="1248" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632962090607">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1248" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1632962090607" />
-    <state x="1290" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1633648550247">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1290" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1633648550247" />
-    <state x="1216" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1633649728991">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1216" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1633649728991" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1635443735769">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1635443735769" />
-    <state x="838" y="418" key="Github.ShareDialog" timestamp="1630684829942">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="838" y="418" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1630684829942" />
-    <state x="679" y="218" key="Github.UntrackedFilesDialog" timestamp="1630684841023">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="679" y="218" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1630684841023" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1633650775764">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1633650775764" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1633650775764">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1633650775764" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1633650775764">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1633650775764" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1633650775764">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1633650775764" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1632354932628">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1632354932628" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1633650724499">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1633650724499" />
-    <state x="1193" y="119" width="585" height="801" key="find.popup" timestamp="1633017461676">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1193" y="119" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1633017461676" />
-    <state x="432" y="157" key="new project wizard" timestamp="1635443729328">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="432" y="157" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1635443729328" />
-    <state x="1200" y="267" key="refactoring.ChangeSignatureDialog" timestamp="1633650277844">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1200" y="267" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1633650277844" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1632432772406">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1632432772406" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/library$Main.ic" NAME="Main Coverage Results" MODIFIED="1614002552307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
