@@ -28,9 +28,9 @@ public class CsvFileManager implements FileManager {
         exportToCsv(users, USERS_FILE_NAME);
     }
 
-    private<T extends CsvConvertible> void exportToCsv(Collection<T> collection, String fileName) {
-        try (var fileWriter = new FileWriter(FILE_NAME);
-             var bufferedWriter = new BufferedWriter(fileWriter)) {
+    private <T extends CsvConvertible> void exportToCsv(Collection<T> collection, String fileName) {
+        try (FileWriter fileWriter = new FileWriter(fileName);
+             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)) {
             for (T element : collection) {
                 bufferedWriter.write(element.toCsv());
                 bufferedWriter.newLine();
