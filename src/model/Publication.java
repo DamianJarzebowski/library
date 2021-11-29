@@ -3,7 +3,7 @@ package model;
 import java.io.Serializable;
 import java.util.Objects;
 
-public abstract class Publication implements Serializable, Comparable<Publication> {
+public abstract class Publication implements Serializable, Comparable<Publication>, CsvConvertible {
 
     // Variables
 
@@ -18,10 +18,6 @@ public abstract class Publication implements Serializable, Comparable<Publicatio
         this.publisher = publisher;
         this.year = year;
     }
-
-    public abstract String toCsv();
-
-    // Methods
 
     // Methods Overwritter from Object
 
