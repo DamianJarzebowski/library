@@ -5,7 +5,6 @@ import io.DataReader;
 import io.file.FileManager;
 import io.file.FileManagerBuilder;
 import model.*;
-import model.comparator.AlphabeticalComparator;
 
 import java.util.Comparator;
 import java.util.InputMismatchException;
@@ -77,8 +76,11 @@ class LibraryControl {
             printer.printLine(e.getMessage());
         }
     }
+
     private void printUsers() {
-        printer.printUsers(library.getSortedUsers((p1, p2) -> p1.getLastName().compareToIgnoreCase(p2.getLastName())));
+        printer.printUsers(library.getSortedUsers(
+                Comparator.comparing(User::getLastName, String.CASE_INSENSITIVE_ORDER)
+        ));
     }
 
     private Option getOption() {
@@ -117,7 +119,9 @@ class LibraryControl {
     }
 
     private void printBooks() {
-        printer.printBooks(library.getSortedPublications(new AlphabeticalComparator()));
+        printer.printBooks(library.getSortedPublications(
+                Comparator.comparing(Publication::getTitle, String.CASE_INSENSITIVE_ORDER))
+        );
     }
 
     private void addMagazine() {
@@ -132,8 +136,11 @@ class LibraryControl {
     }
 
     private void printMagazines() {
-        printer.printMagazines(library.getSortedPublications(new AlphabeticalComparator()));
+        printer.printMagazines(library.getSortedPublications(
+                Comparator.comparing(Publication::getTitle, String.CASE_INSENSITIVE_ORDER)
+        ));
     }
+
     private void deleteMagazine() {
         try {
             Magazine magazine = dataReader.readAndCreateMagazine();

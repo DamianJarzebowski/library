@@ -11,13 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b9c5728-a0e1-42a1-abb7-fb75e2b205e1" name="Default Changelist" comment="WIP">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b0eeb2cb3a9af3203a7670128e70a086af25b21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d7c8b29b19748303b98830ae4e8435b3e74295b0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Library_users.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/LibraryControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638205510441</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="WIP">
+      <created>1638975139951</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1638975139951</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

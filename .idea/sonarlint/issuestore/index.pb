@@ -13,8 +13,6 @@ J
 ,src/exception/UserAlreadyExistsEception.java,8\e\8eade6162a0286aca443df9e9b4fb27bfd7d00cc
 M
 src/model/CsvConvertible.java,5\1\515dcca70568898b69fe2ac71d72288ad6135b25
-C
-src/model/User.java,9\3\930b2c1d08ecb8339873c37ba0b6957548b40e4c
 J
 src/model/Publication.java,6\0\60fee77a7f8f604e879938228b5f7ab5d1aebbd7
 ;
